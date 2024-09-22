@@ -43,9 +43,9 @@ notebook.add(encryptTab, text="Encryption")
 notebook.add(decryptTab, text="Decryption")
 notebook.pack(side=LEFT)
 
-#Frames with same size for consistency
-encryptFrame = Frame(encryptTab, width=256, height=256)
-decryptFrame = Frame(decryptTab, width=256, height=256)
+#Frames
+encryptFrame = Frame(encryptTab)
+decryptFrame = Frame(decryptTab)
 encryptFrame.pack()
 decryptFrame.pack()
 
